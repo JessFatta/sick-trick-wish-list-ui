@@ -39,6 +39,7 @@ class Form extends Component {
             <option value='switch'>Switch</option>
           </select>
         <input
+          className='name'
           type='text'
           placeholder='Name of Trick'
           name='name'
@@ -54,6 +55,7 @@ class Form extends Component {
             <option value='Pool'>Pool</option>
           </select>
         <input
+          className='tutorial'
           type='text'
           placeholder='Link to tutorial'
           name='tutorial'
