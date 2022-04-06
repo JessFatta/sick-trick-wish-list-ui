@@ -8,7 +8,7 @@ const Card = ({stance, name, obstacle, tutorial, id}) => {
       <p>{name}</p>
       <p>Obstacle: {obstacle}</p>
       <p>Link to tutorial: </p> 
-      <p>{tutorial}</p>
+      <a href={tutorial}>{tutorial}</a>
 
     </div>
   )
