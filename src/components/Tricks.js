@@ -8,7 +8,7 @@ const Tricks = ({tricks}) => {
       <Card 
         stance={trick.stance}
         name={trick.name}
-        obstactle={trick.obstactle}
+        obstacle={trick.obstacle}
         tutorial={trick.tutorial}
         id={trick.id}
         key={trick.id}
